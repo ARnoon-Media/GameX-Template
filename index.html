@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Render All Element Normally -->
+    <link rel="stylesheet" href="./assets/css/normalize.css" />
+
+    <!-- Font Awesome Library -->
+    <script
+      src="https://kit.fontawesome.com/0268a9b753.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Google Fonte -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Fav-Icon -->
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml" />
+
+    <!-- Main Template CSS File -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>GameX | Gaming website</title>
+  </head>
+  <body>
+    <!-- End Change Color  -->
+    <!-- Start Header Section -->
+    <div class="header" id="header">
+      <div class="container d-flex">
+        <div class="imgs">
+          <a href="#" class="logo">
+            <img
+              class="logo-img"
+              src="./assets/images/logo.svg"
+              alt="GameX logo"
+            />
+          </a>
+        </div>
+        <div class="list">
+          <div class="list-nav">
+            <a href="#" class="logo-list">
+              <img
+                class="logo-img"
+                src="./assets/images/logo.svg"
+                alt="GameX logo"
+              />
+            </a>
+            <i id="icon-x" class="fa-solid fa-x icon-x"></i>
+          </div>
+          <ul class="d-flex">
+            <li class="d-flex-center"><a href="#hero">Home </a></li>
+            <li class="d-flex-center"><a href="#about">About </a></li>
+            <li class="d-flex-center"><a href="#tournament">Tournament </a></li>
+            <li class="d-flex-center"><a href="#team">Team </a></li>
+            <li class="d-flex-center"><a href="#gears">Gears </a></li>
+            <li class="d-flex-center"><a href="#contact">Contact </a></li>
+          </ul>
+          <div class="social-media">
+            <a href="#"> <i class="facebook fa-brands fa-facebook-f"></i> </a>
+            <a href="#"> <i class="instagram fa-brands fa-instagram"></i> </a>
+            <a href="#"> <i class="twitter fa-brands fa-twitter"></i> </a>
+            <a href="#"> <i class="inkedin fa-brands fa-linkedin-in"></i> </a>
+          </div>
+          <div class="log-in-list">
+            <a href="#">
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <input
+                type="text"
+                name="search"
+                id="search"
+                class="search-list"
+                placeholder="search"
+              />
+            </a>
+            <button class="btn btn-list">
+              <i class="fa-solid fa-arrow-right-from-bracket"></i>
+              <span>Log-in</span>
+            </button>
+          </div>
+          <div id="overlay" class="overlay"></div>
+        </div>
+        <div class="icon-box">
+          <!-- Start Change Color  -->
+          <div class="ch-color">
+            <div class="colors-palette">
+              <i id="palette" class="fa-solid fa-palette"></i>
+            </div>
+            <ul class="colors d-flex-center">
+              <p class="color-text">Change Color Theme</p>
+              <li class="color color-one color-1" data-color="#9c27b0"></li>
+              <li class="color color-two color-2" data-color="#673ab7"></li>
+              <li class="color color-three color-3" data-color="#2196f3"></li>
+              <li class="color color-four color-4" data-color="#3f51b5"></li>
+              <li class="color color-five color-5" data-color="#03a9f4"></li>
+              <li class="color color-sex color-6" data-color="#00bcd4"></li>
+              <li class="color color-seven color-7" data-color="#009688"></li>
+              <li class="color color-eight color-8" data-color="#ffeb3b"></li>
+              <li class="color color-nine color-9" data-color="#ff5722"></li>
+              <li class="color color-ten color-10" data-color="#607d8b"></li>
+              <li class="color color-eleven color-11" data-color="#d40000"></li>
+              <li class="color color-twelv color-12" data-color="#d40075"></li>
+            </ul>
+          </div>
+          <i id="icon-menu" class="fa-solid fa-bars icon icon-active"></i>
+        </div>
+        <div class="log-in d-flex">
+          <!-- Start Change Color  -->
+          <div class="ch-color-large">
+            <div class="colors-palette">
+              <i id="palette-large" class="fa-solid fa-palette"></i>
+            </div>
+            <ul class="colors-large d-flex-center">
+              <p class="color-text">Change Color Theme</p>
+              <li class="color color-one color-1" data-color="#9c27b0"></li>
+              <li class="color color-two color-2" data-color="#673ab7"></li>
+              <li class="color color-three color-3" data-color="#2196f3"></li>
+              <li class="color color-four color-4" data-color="#3f51b5"></li>
+              <li class="color color-five color-5" data-color="#03a9f4"></li>
+              <li class="color color-sex color-6" data-color="#00bcd4"></li>
+              <li class="color color-seven color-7" data-color="#009688"></li>
+              <li class="color color-eight color-8" data-color="#ffeb3b"></li>
+              <li class="color color-nine color-9" data-color="#ff5722"></li>
+              <li class="color color-ten color-10" data-color="#607d8b"></li>
+              <li class="color color-eleven color-11" data-color="#d40000"></li>
+              <li class="color color-twelv color-12" data-color="#d40075"></li>
+            </ul>
+          </div>
+          <a href="#">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </a>
+          <button class="btn d-flex">
+            <i class="fa-solid fa-arrow-right-from-bracket"></i>
+            <span>Log-in</span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- End Header Section -->
+
+    <!-- Start Hero Section -->
+    <section class="hero d-flex-center" id="hero">
+      <div class="container">
+        <p class="hero-subtitle">The Season 8</p>
+        <h1 class="hero-title">Steam</h1>
+        <div class="btn-group">
+          <button class="btn btn-prim">
+            <span>Watch live</span>
+            <i class="fa-solid fa-circle-play"></i>
+          </button>
+          <button class="btn-link">Dream making</button>
+        </div>
+      </div>
+    </section>
+    <!-- End Hero Section -->
+
+    <!-- Start About  Section -->
+    <section class="about" id="about">
+      <div class="container">
+        <div class="about-img-banner d-flex">
+          <div class="content">
+            <p class="about-subtitle">Find team member</p>
+            <h2 class="about-title">
+              Experience just for gamers <strong>offer</strong>
+            </h2>
+            <p class="about-text">
+              Nullam quis ante. Maecenas ullamcorper, dui et placerat feugiat,
+              eros pede varius nisi, condimentum viverra felis nunc et lorem. In
+              auctor lobortis lacus. Phasellus gravida semper nisi. Aliquam
+              lobortis.
+            </p>
+            <p class="about-bottom-text">
+              <i class="fa-regular fa-circle-right"></i>
+              <span>Will sharpen your brain and focus</span>
+            </p>
+          </div>
+          <div class="img-banner">
+            <img
+              class="character"
+              src="./assets/images/about-img.png"
+              alt="M shape"
+            />
+            <img
+              class="character-1"
+              src="./assets/images/character-1.png"
+              alt="Game character"
+            />
+            <img
+              class="character-2"
+              src="./assets/images/character-2.png"
+              alt="Game character"
+            />
+            <img
+              class="character-3"
+              src="./assets/images/character-3.png"
+              alt="Game character"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End About Section -->
+
+    <!-- Start Tournament  Section -->
+    <section class="tournament d-flex-center" id="tournament">
+      <div class="container d-flex">
+        <div class="content">
+          <p class="tournament-subtitle">Check out our next</p>
+          <h2 class="tournament-title">Gaming tournaments !</h2>
+          <p class="tournament-text">
+            Lpsum dolor sit amet, consectetur adipiscing elit, sed labore et
+            dolore magna aliqua.
+          </p>
+          <button class="btn btn-prim">Join with us</button>
+        </div>
+        <div class="prize">
+          <h2 class="prize-title">Prize pool</h2>
+          <span>$80000</span>
+          <img src="./assets/images/prize-img.png" alt="Prize image" />
+        </div>
+        <div class="winner">
+          <h2 class="winner-title">Last winners</h2>
+          <div class="winner-cards d-flex">
+            <div class="winner-card">
+              <img src="./assets/images/winner-img-1.png" alt="Winner image" />
+              <h3 class="winner-team">1st place</h3>
+            </div>
+            <div class="winner-card">
+              <img src="./assets/images/winner-img-2.png" alt="Winner image" />
+              <h3 class="winner-team">2st place</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Tournament  Section -->
+
+    <!-- Start Gallery Section -->
+    <section class="gallery d-flex-center">
+      <div class="container">
+        <div class="gallery-cards">
+          <div class="gallery-card">
+            <div class="gallery-card-imgs">
+              <img
+                src="./assets/images/gallery-img-1.jpg"
+                alt="Gallery image"
+              />
+            </div>
+          </div>
+          <div class="gallery-card">
+            <div class="gallery-card-imgs">
+              <img
+                src="./assets/images/gallery-img-2.jpg"
+                alt="Gallery image"
+              />
+            </div>
+          </div>
+          <div class="gallery-card">
+            <div class="gallery-card-imgs">
+              <img
+                src="./assets/images/gallery-img-3.jpg"
+                alt="Gallery image"
+              />
+            </div>
+          </div>
+          <div class="gallery-card">
+            <div class="gallery-card-imgs">
+              <img
+                src="./assets/images/gallery-img-4.jpg"
+                alt="Gallery image"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Gallery  Section -->
+
+    <!-- Start Team Section -->
+    <section class="team" id="team">
+      <div class="container">
+        <h2 class="team-title head-section">Active Team Members</h2>
+        <div class="team-cards">
+          <div class="team-card d-flex-center">
+            <div class="team-card-content d-flex-center">
+              <img
+                src=".//assets/images/team-member-1.png"
+                alt="Team member image"
+              />
+              <i class="fa-solid fa-link team-link"></i>
+            </div>
+          </div>
+          <div class="team-card">
+            <div class="team-card-content d-flex-center">
+              <img
+                src=".//assets/images/team-member-2.png"
+                alt="Team member image"
+              />
+              <i class="fa-solid fa-link team-link"></i>
+            </div>
+          </div>
+          <div class="team-card">
+            <div class="team-card-content d-flex-center">
+              <img
+                src=".//assets/images/team-member-3.png"
+                alt="Team member image"
+              />
+              <i class="fa-solid fa-link team-link"></i>
+            </div>
+          </div>
+          <div class="team-card">
+            <div class="team-card-content d-flex-center">
+              <img
+                src=".//assets/images/team-member-4.png"
+                alt="Team member image"
+              />
+              <i class="fa-solid fa-link team-link"></i>
+            </div>
+          </div>
+          <div class="team-card">
+            <div class="team-card-content d-flex-center">
+              <img
+                src=".//assets/images/team-member-5.png"
+                alt="Team member image"
+              />
+              <i class="fa-solid fa-link team-link"></i>
+            </div>
+          </div>
+          <div class="team-card">
+            <div class="team-card-content d-flex-center">
+              <img
+                src=".//assets/images/team-member-6.png"
+                alt="Team member image"
+              />
+              <i class="fa-solid fa-link team-link"></i>
+            </div>
+          </div>
+          <div class="team-card">
+            <div class="team-card-content d-flex-center">
+              <img
+                src=".//assets/images/team-member-7.png"
+                alt="Team member image"
+              />
+              <i class="fa-solid fa-link team-link"></i>
+            </div>
+          </div>
+          <div class="team-card">
+            <div class="team-card-content d-flex-center">
+              <img
+                src=".//assets/images/team-member-8.png"
+                alt="Team member image"
+              />
+              <i class="fa-solid fa-link team-link"></i>
+            </div>
+          </div>
+          <div class="team-card">
+            <div class="team-card-content d-flex-center">
+              <img
+                src=".//assets/images/team-member-9.png"
+                alt="Team member image"
+              />
+              <i class="fa-solid fa-link team-link"></i>
+            </div>
+          </div>
+          <div class="team-card">
+            <div class="team-card-content d-flex-center">
+              <img
+                src=".//assets/images/team-member-10.png"
+                alt="Team member image"
+              />
+              <i class="fa-solid fa-link team-link"></i>
+            </div>
+          </div>
+          <div class="team-card">
+            <div class="team-card-content d-flex-center">
+              <img
+                src=".//assets/images/team-member-11.png"
+                alt="Team member image"
+              />
+              <i class="fa-solid fa-link team-link"></i>
+            </div>
+          </div>
+          <div class="team-card">
+            <div class="team-card-content d-flex-center">
+              <img
+                src=".//assets/images/team-member-12.png"
+                alt="Team member image"
+              />
+              <i class="fa-solid fa-link team-link"></i>
+            </div>
+          </div>
+          <div class="team-card">
+            <div class="team-card-content d-flex-center">
+              <img
+                src=".//assets/images/team-member-13.png"
+                alt="Team member image"
+              />
+              <i class="fa-solid fa-link team-link"></i>
+            </div>
+          </div>
+          <div class="team-card">
+            <div class="team-card-content d-flex-center">
+              <img
+                src=".//assets/images/team-member-14.png"
+                alt="Team member image"
+              />
+              <i class="fa-solid fa-link team-link"></i>
+            </div>
+          </div>
+        </div>
+        <button class="btn btn-prim">view all members</button>
+      </div>
+    </section>
+    <!-- End Team Section -->
+
+    <!-- Start Gears Section -->
+    <section class="gears" id="gears">
+      <h2 class="gears-title head-section">check our gears</h2>
+      <div class="container">
+        <div class="gears-cards">
+          <div class="gears-card">
+            <div class="gears-card-imgs d-flex-center">
+              <div class="gears-card-img">
+                <img src=".//assets/images/gears-img-1.png" alt="Headphone" />
+                <div class="time">
+                  <i class="fa-regular fa-clock"></i>
+                  <span>In 4 days</span>
+                </div>
+                <i class="fa-solid fa-share-nodes share-icon d-flex-center"></i>
+              </div>
+            </div>
+            <div class="gears-card-content">
+              <div class="gears-card-content-text d-flex">
+                <div class="title">
+                  <h3>Headphone</h3>
+                  <p>e-sports</p>
+                </div>
+                <div class="price">
+                  <span>$18</span>
+                </div>
+              </div>
+              <div class="gears-card-content-button d-flex">
+                <button class="btn btn-prim">
+                  <i class="fa-solid fa-plus"></i>
+                  <span>Add to cart</span>
+                </button>
+                <button class="btn btn-like">
+                  <i class="fa-regular fa-heart like"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="gears-card">
+            <div class="gears-card-imgs">
+              <div class="gears-card-img">
+                <img src=".//assets/images/gears-img-2.png" alt="Controller" />
+                <div class="time">
+                  <i class="fa-regular fa-clock"></i>
+                  <span>In 4 days</span>
+                </div>
+                <i class="fa-solid fa-share-nodes share-icon d-flex-center"></i>
+              </div>
+            </div>
+            <div class="gears-card-content">
+              <div class="gears-card-content-text d-flex">
+                <div class="title">
+                  <h3>Controller</h3>
+                  <p>e-sports</p>
+                </div>
+                <div class="price">
+                  <span>$29 </span>
+                </div>
+              </div>
+              <div class="gears-card-content-button d-flex">
+                <button class="btn btn-prim">
+                  <i class="fa-solid fa-plus"></i>
+                  <span>Add to cart</span>
+                </button>
+                <button class="btn btn-like d-flex-center">
+                  <i class="fa-regular fa-heart like"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="gears-card">
+            <div class="gears-card-imgs">
+              <div class="gears-card-img">
+                <img src=".//assets/images/gears-img-3.png" alt="Gaming mask" />
+                <div class="time">
+                  <i class="fa-regular fa-clock"></i>
+                  <span>In 4 days</span>
+                </div>
+                <i class="fa-solid fa-share-nodes share-icon d-flex-center"></i>
+              </div>
+            </div>
+            <div class="gears-card-content">
+              <div class="gears-card-content-text d-flex">
+                <div class="title">
+                  <h3>Gaming mask</h3>
+                  <p>e-sports</p>
+                </div>
+                <div class="price">
+                  <span>$45</span>
+                </div>
+              </div>
+              <div class="gears-card-content-button d-flex">
+                <button class="btn btn-prim">
+                  <i class="fa-solid fa-plus"></i>
+                  <span>Add to cart</span>
+                </button>
+                <button class="btn btn-like d-flex-center">
+                  <i class="fa-regular fa-heart like"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Gears Section -->
+
+    <!-- Start Contact Section -->
+    <div class="contact" id="contact">
+      <div class="container">
+        <div class="contact-card d-flex">
+          <div class="contact-content d-flex">
+            <img
+              src=".//assets/images/newsletter-img.png"
+              alt="Newsletter image"
+            />
+            <h2 class="contact-title">Subscribe to our newsletter</h2>
+          </div>
+          <div class="contact-newsletter">
+            <input
+              class="input"
+              type="text"
+              name="sub"
+              id="sub"
+              placeholder="Your Email Address"
+            />
+            <button class="btn btn-prim">Subscribe</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Contact Section -->
+
+    <!-- Start Footer Section -->
+    <div class="footer">
+      <div class="container">
+        <div class="footer-top">
+          <div class="footer-top-item d-flex">
+            <div class="imgs">
+              <a href="#home">
+                <img
+                  class="logo-img"
+                  src="./assets/images/logo.svg"
+                  alt="logo"
+                />
+              </a>
+            </div>
+            <div class="footer-list">
+              <ul class="d-flex">
+                <li><a href="#hero">Home </a></li>
+                <li><a href="#about">About </a></li>
+                <li><a href="#tournament">Tournament </a></li>
+                <li><a href="#team">Team </a></li>
+                <li><a href="#gears">Gears </a></li>
+                <li><a href="#contact">Contact </a></li>
+              </ul>
+            </div>
+            <div class="footer-search">
+              <input
+                class="input"
+                type="text"
+                name="find"
+                id="find"
+                placeholder="Find Here Now"
+              />
+              <button class="btn btn-prim">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </button>
+            </div>
+          </div>
+          <div class="footer-links d-flex">
+            <ul class="quieck-list d-flex">
+              <li><a href="#">Faq</a></li>
+              <li><a href="#"> Help center</a></li>
+              <li><a href="#"> Terms of use</a></li>
+              <li><a href="#"> Privacy</a></li>
+            </ul>
+            <div class="socila-list d-flex">
+              <a class="d-flex-center" href="#">
+                <i class="fa-brands fa-discord"></i>
+              </a>
+              <a class="d-flex-center" href="#">
+                <i class="fa-brands fa-twitch"></i>
+              </a>
+              <a class="d-flex-center" href="#">
+                <i class="fa-brands fa-xbox"></i>
+              </a>
+              <a class="d-flex-center" href="#">
+                <i class="fa-brands fa-youtube"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="container d-flex">
+          <p class="copyright">
+            <span>Portfolio </span> All Rights Reserved By <span>AR-Media</span>
+            <bdi>2023&copy;</bdi>
+          </p>
+          <div class="payment">
+            <img
+              src=".//assets/images/footer-bottom-img.png"
+              alt="Online payment companies logo"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Footer Section -->
+    <!-- GO TO TOP -->
+    <a href="#" id="go-to-top" class="btn btn-prim go-to-top">
+      <i class="fa-solid fa-angle-up"></i>
+    </a>
+    <!-- Main JS File -->
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
